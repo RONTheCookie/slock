@@ -3,7 +3,7 @@
 simple screen locker utility for X.
 
 ## Changes
-* It forks, so you can suspend & lock: `slock && systemctl suspend` and have it ask for your password when you wake the system up.
+None yet
 
 ## Requirements
 
