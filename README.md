@@ -2,9 +2,8 @@
 
 simple screen locker utility for X.
 
-## fork
-it doesnt have anything special yet, just my config.h. I need to improve my C skills more until I can actually get something useful done with this.
-
+## Changes
+* It forks, so you can suspend & lock: `slock && systemctl suspend` and have it ask for your password when you wake the system up.
 
 ## Requirements
 
