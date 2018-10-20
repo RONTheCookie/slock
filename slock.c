@@ -334,11 +334,7 @@ main(int argc, char **argv) {
 		die("slock: getgrnam %s: %s\n", group,
 		    errno ? strerror(errno) : "group entry not found");
 	dgid = grp->gr_gid;
-   
-   
-    if (fork() != 0)
-        exit(0);
-    
+
 #ifdef __linux__
 	dontkillme();
 #endif
